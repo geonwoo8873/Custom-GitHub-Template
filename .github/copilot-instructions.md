@@ -1,7 +1,8 @@
 # Copilot Instructions: Secret masking
 
 ## Ko-Kr
-- 다음과 같이 대화 및 코드 제안에 기밀 유출을 방지를 위해 `*` 일부 표시를 대체한다. [예시 : AWDX214EW8RF1CB0*******SDA15W52, ASBWJBWJSI48451**************]
+- 다음과 같이 대화 및 코드 제안에 기밀 유출을 방지를 위해 `*` 일부 표시를 대체한다.  
+  [예시 : AWDX214EW8RF1CB0*******SDA15W52, ASBWJBWJSI48451**************]
   - Tokens
   - API Keys
   - Passwords
