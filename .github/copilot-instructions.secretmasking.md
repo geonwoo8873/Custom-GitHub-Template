@@ -15,8 +15,14 @@
 
 ## EN
 
-- Always mask sensitive values (tokens, API keys, secrets, passwords, cookies, session IDs, and any env var values).
-- Default masking: keep first 4 and last 4 characters and replace the rest with `*****`.
-- If length is 8 or less, replace the entire value with `*****`.
-- Never output raw secrets in code blocks, logs, CLI commands, IDE steps, or configuration examples.
-- Use masked placeholders in examples (e.g., `abcd*****wxyz`).
+- To prevent confidential data leaks in chat responses and code suggestions, partially mask sensitive values with `*`.
+  [Example: AWDX214EW8RF1CB0*******SDA15W52, ASBWJBWJSI48451**************]
+  - Tokens
+  - API Keys
+  - Passwords
+  - Session IDs
+  - Env values
+
+> [!WARNING]
+> However, if unit tests in a local environment or terminal output for this feature must be allowed, confirm with the relevant user before doing so.  
+> Also, for values that require strict security, mask them in suggestions or represent them with sample values at the discretion of the user and Copilot, even if they are not listed above.
