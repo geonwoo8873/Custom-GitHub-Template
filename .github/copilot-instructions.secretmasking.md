@@ -15,7 +15,7 @@
 
 ## EN
 
-- To prevent confidential data leaks in chat responses and code suggestions, partially mask sensitive values with `*`.
+- To prevent confidential data leaks in chat responses and code suggestions, partially mask sensitive values with `*`.  
   [Example: AWDX214EW8RF1CB0*******SDA15W52, ASBWJBWJSI48451**************]
   - Tokens
   - API Keys
