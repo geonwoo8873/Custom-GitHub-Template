@@ -1,0 +1,14 @@
+# IDEs
+.vscode
+.vs
+.idea
+
+# .NET
+**/obj/
+**/bin/
+
+# Go
+
+
+# Token Screet
+**/.env
