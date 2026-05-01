@@ -1,13 +1,15 @@
 # Pull Request Title
 
-# Status
+## Status
 
 [✔️] Update  
 [] Fix  
 [] Release
 
-# Commit Hash
+### Commit Hash
 * `SHA-123 <15ASD65ASF84AS51D352S0SA5D41W8>`
 
 ## Summary Title
-* Update or Fix features summary
+
+### Summary Descriptions
+* Update or Fix features Descriptions
