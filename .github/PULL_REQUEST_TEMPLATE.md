@@ -1,26 +1,37 @@
-# Pull Request Title
+## 변경 유형
+- [ ] 기능 추가 (Feature)
+- [ ] 버그 수정 (Bugfix)
+- [ ] 리팩토링 (Refactor)
+- [ ] 문서 변경 (Docs)
+- [ ] 릴리스/배포 관련 (Release/Deploy)
 
-## Used Development Build Information
+## 배경 및 목적
+<!-- 왜 이 변경이 필요한지 작성해주세요. -->
 
-* OS :
-* Storage :
-* Build Version :
-* Tools :
+## 주요 변경 사항
+<!-- 어떤 내용을 변경했는지 핵심만 작성해주세요. -->
 
-## Status
+## 테스트 및 검증
+- [ ] 로컬에서 변경사항 검증 완료
+- [ ] 기존 기능 영향도 확인
+- [ ] 테스트 미실시 (사유 작성)
 
-* [✔️] Update  
-* [] Fix  
-* [] Release
+### 실행한 검증 항목
+- Build:
+- Test:
 
-### Commit Hash
+## 관련 이슈
+- Closes #
+- Related #
 
-> [!NOTE]
-> `Example : SHA-123 <15ASD65ASF84AS51D352S0SA5D41W8>`
+## 체크리스트
+- [ ] 자체 코드 리뷰 완료
+- [ ] 필요 시 문서/가이드 업데이트
+- [ ] 브레이킹 체인지 여부 확인
+- [ ] 민감 정보(토큰/비밀번호 등) 미포함 확인
 
-TimeStampe : <`yyyy-mm-dd`>
-Branch : `main`
-Commit Hash : `SHA-123 <15ASD65ASF84AS51D352S0SA5D41W8>`
+## 배포 및 롤백 메모 (선택)
+<!-- 배포 시 주의사항 또는 롤백 방법이 있으면 작성해주세요. -->
 
-### Summary Descriptions
-* Update or Fix features Descriptions
+## 참고 자료 (선택)
+<!-- 리뷰에 도움이 되는 링크, 스크린샷 등을 첨부해주세요. -->
